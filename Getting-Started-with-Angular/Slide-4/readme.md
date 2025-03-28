@@ -1,3 +1,11 @@
+
+For generating UserProfile
+```
+ng generate component [name][options]
+ng generate component UserProfile
+```
+
+
 Let’s turn our attention to data binding.
 
 Data binding allows us to create dynamic and interactive applications by directly connecting the application data (model) to the user interface (view). It ensures that any changes in the data model are automatically reflected in the UI, eliminating the need for manual DOM manipulations.
