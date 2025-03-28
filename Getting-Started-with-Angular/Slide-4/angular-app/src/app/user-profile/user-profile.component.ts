@@ -11,6 +11,6 @@ export class UserProfileComponent {
   userName = 'Srinivasa Rao Gurram';
 
   user = { 
-    profileImage: './sri.png' 
+    profileImage: 'sri.jpg' 
   };
 }

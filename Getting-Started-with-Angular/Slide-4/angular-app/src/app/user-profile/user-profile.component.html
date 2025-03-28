@@ -2,6 +2,15 @@
 <!-- Displaying a user's name using interpolation -->
 <div>Hello, {{ userName }}!</div>
 <!-- Binding an image path dynamically -->
+<div>
+    <div>Binding Property</div>
+    <img [src]="user.profileImage">
+</div>
 
-<img [src]="user.profileImage">
-<img src="./sri.png">
+
+
+<br/>
+<div>
+    <div>interpolation</div>
+<img src="{{user.profileImage}}">
+</div>
