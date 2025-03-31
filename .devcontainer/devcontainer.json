@@ -1,0 +1,17 @@
+{
+    "name": "Angular DevContainer",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "workspaceFolder": "/workspace/angular-app",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "angular.ng-template",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ],
+    "postCreateCommand": "npm install -g @angular/cli && npm install",
+    "forwardPorts": [4200],
+    "remoteUser": "vscode"
+  }
