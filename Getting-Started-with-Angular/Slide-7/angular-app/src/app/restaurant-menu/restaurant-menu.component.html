@@ -1,0 +1,21 @@
+<p>restaurant-menu works!</p>
+<div class="container">
+    <h1>{{restaurantName}}</h1>
+    <img [src]="logoUrl" alt="Restaurant Logo">
+    <main #menuElement>
+      @for(dish of dishes; track dish){
+        <div class="dish">
+           <h3>{{dish.name}}</h3>
+           <p>{{dish.description}}</p>
+           <img [ngSrc]="dish.imageUrl" width="200" height="200" alt="{{ dish.name }}">
+        </div>
+      }
+    </main>
+    <div class="menu-items">
+      @if (menuElement) {
+        <span>Today's menu has {{ dishes.length }} dishes.</span>
+      }
+    </div>
+    <app-dish-recipe>To learn more recipes, visit our website.</app-dish-recipe>
+  </div>
+  
