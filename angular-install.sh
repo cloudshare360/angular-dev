@@ -1,2 +1,3 @@
-npm install -g @angular/cli@18
+npm install -g @angular/cli@15
+
 npm install 

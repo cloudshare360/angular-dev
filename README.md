@@ -1,4 +1,7 @@
 # angular-dev
+Commonly used command
+
+"start": "ng serve --disable-host-check",
 
 [GettingStartingWithAngular](https://www.codecademy.com/courses/learn-angular/lessons/angular-introduction)
 It is a paid course. Hence capturing all the notes as part of git repo.
