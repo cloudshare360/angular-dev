@@ -9,8 +9,3 @@ Every 6 months Angular releases new Versions
 
 Part 2:
 App is Developed using Angular 15
-
-Part 3:
-npm install -g @angular/cli@15
-
-ng version
