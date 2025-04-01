@@ -23,6 +23,7 @@ Run the application
 ng serve --open
 or
 ng serve --host 0.0.0.0 --disable-host-check
+ng serve n--disable-host-check
 
 Generate boilerplate like components, directives, and pipes with ng generate.
 
