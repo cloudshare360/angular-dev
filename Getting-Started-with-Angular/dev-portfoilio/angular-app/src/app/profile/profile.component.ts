@@ -13,4 +13,5 @@ export class ProfileComponent {
   location: string = "Dallas, USA";
   linkedinUrl: string = "https://www.linkedin_profile_url.com";
   githubUrl: string = "https://github_profile_url.com";
+  imageUrl:String ="sri.png"
 }
