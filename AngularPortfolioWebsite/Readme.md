@@ -37,3 +37,14 @@ Routing is Yes
 CSS is Yes
 and continue to create angular application
 ![alt text](image-2.png)
+
+Angular is single page application
+index.html  has app-root- is the entry point of angular app
+
+app - app component 
+app.component.html
+
+To run the angular application, we use ng serve
+```
+ng server
+```
