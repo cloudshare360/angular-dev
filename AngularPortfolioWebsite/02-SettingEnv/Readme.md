@@ -26,8 +26,9 @@ Node Version 18.x
 
 Install Angular 15
 ![alt text](image-7.png)
-```
 Note: Very Important to add 15 at the end as this application is developed in angular 15 
 -g stands for global
+```
 npm install -g @angular/cli@15
+```
 ![alt text](image-8.png)
