@@ -2,7 +2,7 @@
     "name": "Angular DevContainer",
     "dockerFile": "Dockerfile",
     "context": "..",
-    "workspaceFolder": "/workspaces/angular-dev/Getting-Started-with-Angular/Slide-7/angular-app",
+    "workspaceFolder": "/workspaces/angular-dev",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
