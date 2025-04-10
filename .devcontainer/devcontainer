@@ -1,17 +1,24 @@
 {
-    "name": "Angular DevContainer",
-    "dockerFile": "Dockerfile",
-    "context": "..",
-    "workspaceFolder": "/workspaces/angular-dev",
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
-      "angular.ng-template",
-      "esbenp.prettier-vscode",
-      "dbaeumer.vscode-eslint"
-    ],
-    "postCreateCommand": "npm install -g @angular/cli && npm install",
-    "forwardPorts": [4200],
-    "remoteUser": "vscode"
+  "name": "Angular Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace/angular-dev/Getting-Started-with-Angular/Slide-1/angular-app",
+  "forwardPorts": [4200],
+  "postCreateCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "angular.ng-template",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "4200": {
+      "label": "Angular App",
+      "onAutoForward": "openBrowser"
+    }
   }
+}
