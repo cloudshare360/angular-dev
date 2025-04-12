@@ -1,5 +1,8 @@
 {
   "name": "Angular Dev Container",
+  // "build": {
+  //   "dockerfile": "Dockerfile"
+  // },
   "workspaceFolder": "/workspace/angular-dev/Getting-Started-with-Angular/Slide-1/angular-app",
   "forwardPorts": [4200],
   "postCreateCommand": "npm install",
