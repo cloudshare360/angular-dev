@@ -11,3 +11,8 @@ https://gale.udemy.com/course/angular-4-front-to-back
   - Integrate Bootstrap 4 into Angular projects
   - Build a client management application with authentication and Firebase's Firestore
   - Master Angular concepts
+
+Angular Commands
+```
+npm install -g @angular/cli@1.7.2
+```
