@@ -268,10 +268,92 @@ Prepare for interviews and finalize your portfolio.
 
 1. **Start with Week 1, Day 1** and work sequentially
 2. **Complete all exercises** in each day's README
-3. **Commit your code daily** to GitHub
+3. **Commit your code daily** to GitHub (use helper scripts!)
 4. **Log your progress** using the conversation tracking system
 5. **Build each project** and deploy it live
 6. **Review and test** before moving to the next week
+
+---
+
+## 💾 **Commit Guidelines (Prevent Data Loss!)**
+
+### Quick Commits with Helper Scripts
+
+```bash
+# After completing a day
+./tools/checkpoint.sh 1 1 completed
+
+# Quick save while working
+./tools/auto-commit.sh "WIP: building header component"
+
+# Log your learning
+node tools/log_conversation.js \
+  --sessionId "week1-$(date +%Y%m%d)" \
+  --role user \
+  --content "Completed routing exercises"
+```
+
+### Manual Git Workflow
+
+```bash
+# Stage changes
+git add .
+
+# Commit with descriptive message
+git commit -m "feat: complete Week-1 Day-1 portfolio setup"
+
+# Push to remote
+git push origin main
+
+# Update progress tracker
+# Edit Learning-Plan-Angular/PROGRESS.md manually
+```
+
+### Commit Message Format
+
+```
+type(scope): description
+
+Examples:
+- feat: complete Week-1 Day-3 directives exercises
+- fix: resolve routing guard issue in employee app
+- docs: update Week-2 Day-5 notes
+- test: add unit tests for cart service
+- style: format shopping cart component
+- refactor: simplify auth service logic
+```
+
+**Commit Types**:
+- `feat` - New feature or completed exercise
+- `fix` - Bug fix
+- `docs` - Documentation updates
+- `test` - Adding tests
+- `style` - Code formatting
+- `refactor` - Code restructuring
+
+### Best Practices
+
+✅ **DO**:
+- Commit after each day's work
+- Write clear, descriptive messages
+- Push to remote regularly (daily minimum)
+- Update PROGRESS.md when completing milestones
+- Use checkpoint script for automatic tracking
+
+❌ **DON'T**:
+- Wait until week-end to commit
+- Use vague messages like "updates" or "changes"
+- Forget to push (local commits can be lost!)
+- Skip logging important learnings
+
+---
+
+## 📊 Track Your Progress
+
+- **[PROGRESS.md](./PROGRESS.md)** - Manual progress tracker (update after each day)
+- **[CHANGELOG.md](../CHANGELOG.md)** - Project evolution log
+- **[.conversations/](../.conversations/)** - Automated session logs
+- **Git history** - Complete commit timeline
 
 ---
 
