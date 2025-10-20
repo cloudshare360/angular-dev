@@ -1,7 +1,11 @@
 {
-  "lastSessionId": "sample-20251020-0001",
+  "lastSessionId": "setup-20251020",
   "activeWeek": "Week-01-Fundamentals-Portfolio",
   "progress": {
-    "Week-01": {"completedDays": 1, "notes":"Day 1 done"}
-  }
+    "Week-01": {
+      "completedDays": 1,
+      "notes": "Day 1 done"
+    }
+  },
+  "updatedAt": "2025-10-20T16:24:17.177Z"
 }

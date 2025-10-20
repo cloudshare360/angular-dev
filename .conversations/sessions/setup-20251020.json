@@ -1,0 +1,18 @@
+{
+  "sessionId": "setup-20251020",
+  "createdAt": "2025-10-20T16:24:17.176Z",
+  "updatedAt": "2025-10-20T16:24:17.176Z",
+  "user": {
+    "id": "user-1"
+  },
+  "messages": [
+    {
+      "role": "agent",
+      "content": "Completed Angular learning plan setup",
+      "timestamp": "2025-10-20T16:24:17.176Z"
+    }
+  ],
+  "metadata": {
+    "project": "angular-dev"
+  }
+}

@@ -1,4 +1,11 @@
 {
-  "generatedAt": "2025-10-20T00:00:00Z",
-  "sessions": []
+  "generatedAt": "2025-10-20T16:24:17.176Z",
+  "sessions": [
+    {
+      "sessionId": "setup-20251020",
+      "createdAt": "2025-10-20T16:24:17.176Z",
+      "updatedAt": "2025-10-20T16:24:17.176Z",
+      "filename": "sessions/setup-20251020.json"
+    }
+  ]
 }
