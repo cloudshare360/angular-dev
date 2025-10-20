@@ -1,0 +1,11 @@
+{
+  "sessionId": "sample-20251020-0001",
+  "createdAt": "2025-10-20T00:00:00Z",
+  "updatedAt": "2025-10-20T00:00:00Z",
+  "user": {"id": "user-1", "name": "Developer"},
+  "messages": [
+    {"role":"user","content":"Start new Angular learning plan","timestamp":"2025-10-19T09:00:00Z"},
+    {"role":"agent","content":"I'll scaffold Week 1","timestamp":"2025-10-19T09:01:00Z"}
+  ],
+  "metadata": {"project":"angular-dev","activeWeek":"Week-01-Fundamentals-Portfolio"}
+}

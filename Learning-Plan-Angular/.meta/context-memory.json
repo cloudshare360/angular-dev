@@ -1,0 +1,166 @@
+{
+  "projectContext": {
+    "name": "Angular 18 Learning Plan",
+    "goal": "Zero to Job-Ready Mid-Level Developer in 3-6 Weeks",
+    "targetAudience": "Developers learning Angular 18 with 3 hours/day commitment",
+    "totalWeeks": 6,
+    "hoursPerDay": 3,
+    "totalHours": "90-120 hours"
+  },
+  "technicalStack": {
+    "framework": "Angular 18",
+    "language": "TypeScript 5.x",
+    "testing": ["Jasmine", "Karma", "Cypress/Playwright"],
+    "styling": ["Bootstrap 5", "Tailwind CSS (optional)"],
+    "deployment": ["Netlify", "Firebase Hosting", "Vercel", "AWS Amplify", "Azure Static Web Apps"],
+    "cicd": ["GitHub Actions", "Azure DevOps", "GitLab CI"],
+    "keyFeatures": [
+      "Standalone Components (default)",
+      "Signals (reactive primitives)",
+      "inject() function (constructor-less DI)",
+      "Deferrable Views (@defer)",
+      "ESBuild-based dev server"
+    ]
+  },
+  "weeklyBreakdown": {
+    "week1": {
+      "title": "Angular 18 Fundamentals + Portfolio Site",
+      "focus": "Core concepts → Immediate output",
+      "project": "Personal Portfolio Website",
+      "status": "completed",
+      "deliverables": [
+        "Live portfolio with GitHub repo",
+        "Dark mode toggle using Signals",
+        "3+ unit tests",
+        "Deployed to Netlify/Firebase"
+      ]
+    },
+    "week2": {
+      "title": "Routing, State, Forms & Employee App",
+      "focus": "User interaction & data flow",
+      "project": "Employee Management System (CRUD)",
+      "status": "not-started",
+      "deliverables": [
+        "Form validation with error messages",
+        "Route guards for edit pages",
+        "Unit tests for form logic & services"
+      ]
+    },
+    "week3": {
+      "title": "Advanced Patterns + Shopping Cart",
+      "focus": "Real-world complexity",
+      "project": "Shopping Cart with Product Listing",
+      "status": "not-started",
+      "deliverables": [
+        "Mock API integration",
+        "Cart state with signals",
+        "Cart persistence (localStorage)",
+        "Responsive UI (mobile-first)"
+      ]
+    },
+    "week4": {
+      "title": "CMS for Small Business (aasoftnet.com Clone)",
+      "focus": "Auth + dynamic content + preview",
+      "project": "Content Management System",
+      "status": "not-started",
+      "deliverables": [
+        "Admin login (Firebase Auth or mock JWT)",
+        "WYSIWYG/form-based editor per page",
+        "Preview mode with versioning",
+        "Role-based access"
+      ]
+    },
+    "week5": {
+      "title": "Testing Deep Dive + CI/CD",
+      "focus": "Quality & automation",
+      "project": "Testing & Automation for All Projects",
+      "status": "not-started",
+      "deliverables": [
+        ">80% test coverage",
+        "E2E tests with Cypress",
+        "GitHub Actions CI/CD pipeline",
+        "Auto-deploy on main push"
+      ]
+    },
+    "week6": {
+      "title": "Interview Prep + Portfolio Polish",
+      "focus": "Job readiness",
+      "project": "Career Preparation & Documentation",
+      "status": "not-started",
+      "deliverables": [
+        "Cheat sheets (Signals, RxJS, DI, etc.)",
+        "50+ Angular interview Q&A",
+        "Polished GitHub/LinkedIn profile",
+        "4 deployed projects with documentation"
+      ]
+    }
+  },
+  "currentState": {
+    "completedWeeks": ["week1"],
+    "currentWeek": null,
+    "pendingWeeks": ["week2", "week3", "week4", "week5", "week6"],
+    "filesCreated": [
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-02-Components-Templates/README.md",
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-03-Directives-Pipes/README.md",
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-04-Signals-Reactivity/README.md",
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-05-Responsive-Bootstrap/README.md",
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-06-Testing-Basics/README.md",
+      "/workspaces/angular-dev/Learning-Plan-Angular/Week-01-Fundamentals-Portfolio/Day-07-Deployment/README.md"
+    ],
+    "lastAction": "Created tracking and metadata system",
+    "nextAction": "Create Weeks 2-6 folder structure and content"
+  },
+  "userPreferences": {
+    "namingConvention": "Day-##-Topic-Name",
+    "contentStructure": [
+      "Learning Objectives",
+      "Topics Covered",
+      "Hands-On Exercises",
+      "Resources",
+      "End of Day Checklist"
+    ],
+    "emphasis": [
+      "Standalone components (Angular 18 default)",
+      "Signals over RxJS for local state",
+      "inject() over constructor DI",
+      "Production-ready code with tests",
+      "Deployed projects"
+    ]
+  },
+  "memoryMarkers": {
+    "importantDecisions": [
+      "Week 1 uses 7-day structure (Day-01 through Day-07)",
+      "Each day has comprehensive README with exercises",
+      "Portfolio project is central deliverable for Week 1",
+      "Testing introduced early (Day 6) for quality habits",
+      "Deployment on Day 7 ensures real-world output"
+    ],
+    "conversationContexts": [
+      {
+        "topic": "Initial scaffolding request",
+        "decision": "Start with Week 1 completion before moving to other weeks",
+        "rationale": "Build incrementally to ensure quality"
+      },
+      {
+        "topic": "Tracking system request",
+        "decision": "Create .meta/ folder with JSON and Markdown files",
+        "rationale": "Preserve context across sessions for continuity"
+      }
+    ]
+  },
+  "aiInstructions": {
+    "onRestore": [
+      "Read conversation-log.md for human-readable history",
+      "Check session-tracker.json for structured progress",
+      "Review progress-tracker.md for visual status",
+      "Continue from 'nextAction' in currentState"
+    ],
+    "onContinue": [
+      "Scaffold Week 2-6 folders following Week 1 pattern",
+      "Each week needs: README.md and Day-XX folders",
+      "Each day needs: comprehensive README.md with exercises",
+      "Update session-tracker.json after each batch of files",
+      "Append to conversation-log.md with new requests"
+    ]
+  }
+}
